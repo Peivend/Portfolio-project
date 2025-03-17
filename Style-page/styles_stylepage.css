@@ -1,0 +1,45 @@
+body {
+    text-align:center;
+}
+
+.color {
+    height: 100px;
+    width: 150px;
+    display: inline-flex;
+    margin: 10px;
+    text-align: center;
+}
+
+#deep-purple {
+    background-color: #2B1B5A;
+    border: 10px solid black;
+    color: white;
+}
+
+#dark-purple {
+    background-color: #4B287D;
+    border: 3px solid black;
+}
+
+#light-accent {
+    background-color: #6A3CBC;
+    border: 3px solid black;
+}
+
+#light-purple {
+    background-color: #B89AE0;
+    border: 3px solid black;
+}
+
+#white {
+    background-color: white;
+    border: 3px solid black;
+}
+
+.typography-section p{
+    font-family: poppins;
+}
+
+.typography-section h1{
+    font-family: playfair display;
+}
