@@ -11,6 +11,7 @@ body {
     background-color: #2B1B5A;
     color: white;
     font-family: poppins, sans-serif;
+    text-align: center;
 }
 
 header {
@@ -85,15 +86,14 @@ main {
 
 #about img {
     width: 100%;
-    top: -150px;
-    height: auto;
+    top: -100px;
     position: relative;
 }
 
 #about p {
     width: 40%;
     margin: 10px;
-    line-height: 4em;
+    line-height: 3em;
 }
 
 #projects {
@@ -123,4 +123,32 @@ main {
 
 #projects li a {
     color: white;
+}
+
+#skills {
+    margin: 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+skills li {
+    font-size: 1.5em;
+    margin: 10px;
+    line-height: 1.5em;
+}
+
+#contact form {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#contact {
+    margin: 20px;
+    text-align: center;
 }
